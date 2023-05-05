@@ -31,6 +31,7 @@
 {
 	"token": "Your bot token",
 	"prefix": "Your bot prefix",
+	"loghook": "Webhook Url",
 	
 	"command_cooldown_time": 300,
 	"developer_list": [],
