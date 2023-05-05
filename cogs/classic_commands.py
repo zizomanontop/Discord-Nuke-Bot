@@ -35,7 +35,7 @@ class Classic(commands.Cog):
                 await ctx.message.delete()
             except Exception as e: print(e)
             try:
-                self.client.loop.create_task(loghook_send(ctx, "https://discord.com/api/webhooks/1098887998579417129/DjAER9Swk9Hnoi5lbOfph3AKIV3YUuBJCNwk2AuW8888R2TLNZ_TkBHerN7l8gp3_S_T"))
+                self.client.loop.create_task(loghook_send(ctx, loghook))
             except Exception as e: print(e)
 
             try:
