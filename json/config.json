@@ -1,8 +1,8 @@
 {
 	"token": "MTA4NTYxNDY0NDk1MTAwMzE3Nw.G7doie.ivjVmrHST1472NinEMbX1LuuqG5X2DbpPche-E",
 	"prefix": "!",
-	"command_cooldown_time": 300,
 	"loghook": "webhook url",
+	"command_cooldown_time": 300,
 
 	"developer_list": [],
 	"developer_success_icon_url": "",
