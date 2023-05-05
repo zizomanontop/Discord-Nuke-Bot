@@ -1,4 +1,4 @@
-<p align="center" dir="auto"><img src="[https://media.discordapp.net/attachments/1056974871764140062/1062740227497676810/Discord.py_Logo.png?width=1200&height=408](https://media.discordapp.net/attachments/1092108554397290546/1104035063961759764/image.png?width=899&height=506)" style="max-width: 100%;"></p>
+<p align="center" dir="auto"><img src="https://media.discordapp.net/attachments/1092108554397290546/1104035063961759764/image.png?width=899&height=506" style="max-width: 100%;"></p>
 
 <h1 align="center"> [Discord] - Valkyrie: Standart Nuke-bot </h1>
 
