@@ -76,7 +76,7 @@
 	<strong> To view a list of all bot commands, enter the <code>documentation</code> command in the chat of any server where there is a bot (do not forget to specify the prefix before the command name), the bot will send you a list of all available commands to the bos. The name of the file where the <code>documentation</code> command is stored: <a href="">system_bot.py</a> </strong>
 </p>
 
-<p align="center"><img src="https://media.discordapp.net/attachments/1052941656564961291/1063176944541257798/image.png?width=883&height=555" align="center"></p>
+<p align="center"><img src="https://media.discordapp.net/attachments/1092108554397290546/1104032992088838184/image.png?width=807&height=506" align="center"></p>
 
 <p align="center" style="font-size:2">
 	<small><i> Visual view of the command <code>documentation</code> </i></small>
