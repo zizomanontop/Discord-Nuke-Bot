@@ -30,14 +30,26 @@
 ```json
 {
 	"token": "Your bot token",
-	"prefix": "YOU PREFIX HERE",
-	"loghook": "The webhook to which information about the destroyed servers will be sent.", 
-	"developer_list": ["List of people who will be granted access to the developer's commands"],
-	"channels_name": "The names of the channels that the bot will create during the destruction",
-	"roles_name": "The names of the roles that the bot will create during the destruction",
-	"server_name": "The name to which the name of the server will be changed before the destruction",
-	"avatar_file": "avatar.jpg (The file name is avatars. It is necessary to change the server avatar)",
+	"prefix": "Your bot prefix",
+	
+	"command_cooldown_time": 300,
+
+	"developer_list": [],
+	"developer_success_icon_url": "",
+	"developer_error_icon_url": "",
+
+	"nuke_channels_name": "crash3d",
+	"nuke_voice_name": "DDoS By Anarchy",
+	"nuke_categories_name": "DDoS By Anarchy",
+
+	"nuke_server_name": "...<<<CaSh3D>>>...",
+	"nuke_roles_name": "crash3d",
+	"nuke_webhook_name": "CrAsH3D by Anarchy Syndicate",
+
+	"nuke_avatar_file": "avatar.jpg",
+	"spam_text_file": "spam_text.txt"
 }
+
 ```
 <p> <b> Information about each line of the "config.json" file: </b> </p>
 <ul>
