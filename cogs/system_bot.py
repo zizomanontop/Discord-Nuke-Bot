@@ -67,7 +67,7 @@ class Help(commands.Cog):
                 value = f"""឵឵
 > `{ctx.prefix}spam` - Mass sending of messages in one channel.
 > `{ctx.prefix}allspam` - Mass sending of messages in all channels.
-> `{ctx.prefix}wepbhook_spam` - Mass sending of messages via webhook.
+> `{ctx.prefix}webhook_spam` - Mass sending of messages via webhook.
 > `{ctx.prefix}dmspam <@Ping | ID>` - Mass sending of messages to the bos mentioned.\n឵឵""",
                 inline = False
             )
