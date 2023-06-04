@@ -32,7 +32,7 @@ async def spam_send(ctx, count):
 
 @client.command()
 async def load(ctx, extension):
-    if ctx.author.id == 848621214935154738:
+    if ctx.author.id in developers_list:
         client.load_extension(f"cogs {extension}")
         await ctx.send("Cogs loaded!")
     else:
@@ -41,7 +41,7 @@ async def load(ctx, extension):
 
 @client.command()
 async def unload(ctx, extension):
-    if ctx.author.id == 848621214935154738:
+    if ctx.author.id in developers_list:
         client.unload_extension(f"cogs {extension}")
         await ctx.send("Cogs unloaded!")
     else:
@@ -50,7 +50,7 @@ async def unload(ctx, extension):
 
 @client.command()
 async def reload(ctx, extension):
-    if ctx.author.id == 848621214935154738:
+    if ctx.author.id in developers_list:
         client.unload_extension(f"cogs {extension}")
         client.load_extension(f"cogs {extension}")
         await ctx.send("Cogs reloaded!")
