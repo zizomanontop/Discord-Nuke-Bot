@@ -17,6 +17,7 @@ from discord.ext import (
     tasks
 )
 
+
 class Spam_Commands(commands.Cog):
 
     def __init__(self, client):
