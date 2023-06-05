@@ -1,23 +1,17 @@
-💥`Ссылка на краш бота:` ||**[Нажмите, чтобы пригласить бота](https://discord.com/api/oauth2/authorize?client_id=1085614644951003177&permissions=8&scope=bot)**||💥
+⛛**`Valkyrie's invite:`** ||**[Click here to invite bot](https://t.me/anarchy_syndicate)**||⛛
 
-> *К сожалению, данный сервер был уничтожен из-за невнимательности здешней администрации. В связи с этим мы рекомендуем вам нашу организацию `C.R.S`, занимающуюся разработкой и распространением краш ботов для дискорда. Мы занимаемся своей деятельностью уже очень давно, зарекомендовав себя как лучшие в этой сфере на территории СНГ.*
+> *Unfortunately, this server was destroyed due to inattention of the administration. In this regard, we recommend you the organization `N.A.S`, which is engaged in the development and distribution of nuke bots for Discord. We are engaged in its activities for a very long time, having established ourselves as the best in this sphere.*
 
-> *Если наше предложение вас заинтересовало - просим пройти на наш Discord-сервер, там вы получите доступ к остальным нашим ботам и более подробную информацию о нашей организации.*
+> *If you are interested in our offer - please go to our Telegram channel, there you will get access to our other bots and more information about our organization.*
 > 
-> **`Ссылка на Discord:` [🔗нажмите, что-бы перейти](https://discord.gg/k8Z7djzHrM)**
-> **`Ссылка на Vk:` [🔗нажмите, что-бы перейти](https://vk.com/crc_official)**
-> **`Ссылка на GitHub:` [🔗нажмите, что-бы перейти](https://github.com/OpenNDB)**
+> **`Github Repository:` [➥ click to redirect](https://github.com/n7tr/Valkyrie-Discord-Bot)**
+> **`Telegram channel:`  [➥ click to redirect](https://t.me/anarchy_syndicate)**
 
-**⚡ ・ Blood Group представляет вам:**
+⛛ ・ Anarchy Syndicate presents to you:
 ```py
- + Удобных и мощных краш ботов.
+ + User-friendly and quality nuke bots.
 
- + Адекватную администрацию.
+ + Frequent bot updates.
 
- + Частые обновления ботов.
-
- + Большой функционал краш ботов.
-
- + Большой выбор среди краш ботов.
-
- + Помощь в создании ваших собственных краш ботов.```
+ + Great functionality of nuke bots.
+```
