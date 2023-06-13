@@ -67,9 +67,9 @@ def token_check():
         print(e)
         while True:
             token = input(f"{r}[X] {wh}Enter token your bot: ")
-            config["token"] = token
-            with open("json/config.json", "w") as f:
-                json.dump(config, f)
+            #config["token"] = token
+            #with open("json/config.json", "w") as f:
+            #    json.dump(config, f)
             try:
                 client.run(token)
                 break
