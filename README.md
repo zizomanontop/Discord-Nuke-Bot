@@ -1,6 +1,6 @@
 <p align="center" dir="auto"><img src="https://media.discordapp.net/attachments/1085926459559911434/1107672585166135408/image.png?width=899&height=506" style="max-width: 100%;"></p>
 
-<h1 align="center"> [Discord] - Valkyrie: Standart Nuke-bot </h1>
+<h1 align="center"> [Discord] - Valkyrie: Standart Nuke-bot(Not supported) </h1>
 
 <p align="center" dir="auto"><a href="https://github.com/ArMaGeDDoN-SS/Standard-Nuke-bot/blob/main/README.md">
 	<img src="https://img.shields.io/github/downloads/ArMaGeDDoN-SS/Discord-Nuke-Bot/total?logo=github&style=flat-square" style="max-width: 100%;"></a> 
